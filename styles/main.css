@@ -1,0 +1,39 @@
+main {
+    width: 1151px; margin: 0 auto;
+    font-family: 'Noto Sans KR';
+}
+main .bnr {
+    display: flex; justify-content: space-between;
+}
+main .bnr .left {position: relative;}
+main .bnr .left a {}
+main .bnr .left a img {}
+main .bnr .left .cancel {
+    padding: 5px 8px; font-size: 0.813rem;
+    background-color: #1e6cb3; color: #fff;
+    border-radius: 5px;
+    position: absolute; right: 15px; bottom: 15px;
+}
+main .bnr .right {
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+}
+main .bnr .right .right_top {position: relative;}
+main .bnr .right .right_top a {}
+main .bnr .right .right_top a img {}
+main .bnr .right .right_top span {
+    position: absolute; color: #fff;
+    text-align: center; font-size: 0.813rem;
+}
+main .bnr .right .right_top span:nth-of-type(1) {
+    color: #000;
+    top: 14px; right: 20px;
+}
+main .bnr .right .right_top span:nth-of-type(2) {width: 140px; top: 84px; left: 30px;}
+main .bnr .right .right_top span:nth-of-type(3) {width: 140px; top: 84px; right: 29px;}
+main .bnr .right .right_top span:nth-of-type(4) {width: 94px; bottom: 58px; left: 30px;}
+main .bnr .right .right_top span:nth-of-type(5) {width: 94px; bottom: 58px; right: 121px;}
+main .bnr .right .right_top span:nth-of-type(6) {width: 59px; bottom: 58px; right: 32px;}
+main .bnr .right .right_bottom {}
+main .bnr .right .right_bottom a {}
+main .bnr .right .right_bottom a img {}
