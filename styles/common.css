@@ -1,0 +1,58 @@
+header {
+    width: 1151px; margin: 0 auto;
+    font-family: 'Noto Sans KR';
+}
+header .top {
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 0.875rem;
+}
+header .top nav {height: 48px;}
+header .top nav a {margin-right: 5px;}
+header .top nav a:last-child {margin: 0;}
+header .top nav a img {}
+header .top .right {}
+header .top .right a {margin-right: 5px;}
+header .top .right a:last-child {margin: 0;}
+header .bottom {
+    height: 119px ;
+    display: flex; justify-content: space-between; align-items: center;
+}
+header .bottom h1 {}
+header .bottom h1 a {}
+header .bottom h1 a img {}
+header .bottom #search_frm {}
+header .bottom #search_frm fieldset {
+    width: 370px; padding: 10px 20px;
+    display: flex; justify-content: space-between;
+    border: 3px solid #1e6cb3;
+}
+header .bottom #search_frm fieldset .user_search {
+    width: 300px;
+    border: none; color: #1e6cb3;
+}
+header .bottom #search_frm fieldset a {}
+header .bottom #search_frm fieldset a img {}
+header .bottom .lang_weather {
+    display: flex; flex-flow: column nowrap;
+    align-items: flex-end;
+}
+header .bottom .lang_weather .lang {}
+header .bottom .lang_weather .lang #user_lang {
+    margin-right: 3px; padding: 5px;
+    font-size: 0.75rem;
+    border: 1px solid #1e6cb3;
+}
+header .bottom .lang_weather .lang #user_lang option {font-size: 0.813rem;}
+header .bottom .lang_weather .lang .lang_sub {
+    padding: 7px 5px;
+    font-size: 0.75rem; font-weight: 700;
+    background-color: #1e6cb3; color: #fff;
+    border: none;
+}
+header .bottom .lang_weather .weather {}
+header .bottom .lang_weather .weather p {
+    font-size: 0.813rem;
+}
+header .bottom .lang_weather .weather p em {
+    font-size: 1.5rem; font-weight: 700;
+}
